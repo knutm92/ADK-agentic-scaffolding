@@ -11,7 +11,6 @@ root_agent = Agent(
     
     Available agents:
     `cycling_expert`: Assists with cycling-related questions.
-
     """,
     tools=[],
     sub_agents=[cycling_expert]

@@ -13,3 +13,5 @@ class Settings(BaseSettings):
 
     # Google API
     google_api_key: str | None = None
+
+settings = Settings()

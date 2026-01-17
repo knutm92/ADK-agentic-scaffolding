@@ -5,7 +5,9 @@ description = "ADK backend with FastAPI"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi>=0.123.10",
     "google-adk>=1.19.0",
+    "loguru>=0.7.3",
     "pydantic-settings>=2.12.0",
 ]
 
