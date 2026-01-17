@@ -9,7 +9,7 @@ resolution-markers = [
 [[package]]
 name = "adk-agentic-scaffolding"
 version = "0.0.1"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "google-adk" },
     { name = "pydantic-settings" },
